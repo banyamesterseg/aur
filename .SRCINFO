@@ -1,0 +1,38 @@
+pkgbase = minetest-banyamesterseg
+	pkgdesc = Voxel game engine and Infiniminer/Minecraft-inspired game
+	pkgver = 20191010.630c1f5f
+	pkgrel = 1
+	url = http://www.minetest.net/
+	install = install
+	arch = i686
+	arch = x86_64
+	license = LGPL2.1
+	license = CCPL:by-sa
+	makedepends = git
+	makedepends = cmake
+	depends = bzip2
+	depends = freetype2
+	depends = irrlicht
+	depends = jsoncpp
+	depends = leveldb
+	depends = libjpeg
+	depends = libpng
+	depends = libvorbis
+	depends = luajit
+	depends = mesa
+	depends = openal
+	depends = sqlite
+	depends = hiredis
+	provides = minetest
+	provides = minetest-common
+	provides = minetest-server
+	conflicts = minetest
+	conflicts = minetest-common
+	conflicts = minetest-server
+	source = git://github.com/banyamesterseg/minetest.git#branch=banyamesterseg
+	source = git://github.com/minetest/minetest_game.git
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = minetest-banyamesterseg
+
